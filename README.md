@@ -47,7 +47,7 @@ Ejemplo con bc/cert-issuer-http:1.0 de la imagen
 sudo docker build . -t bc/cert-issuer-http:1.0 -f cert-issuer/Dockerfile.web --build-arg NETWORK=ropsten --build-arg SERVER=localhost
 docker build . -t cert-tools -f cert-tools/Dockerfile
 ```
-Nota: Basta con hacer build de la imagen que se modifico
+Nota: Basta con hacer build de la imagen que se modificó
 
 ### Deploy
 
