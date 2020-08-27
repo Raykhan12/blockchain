@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  cert-tools:
+    image: cert-tools
+    ports:
+      - "3000:3000"
+    deploy:
+      replicas: 1
+  cert-issuer:
+    image: bc/cert-issuer-http:1.0
+    entrypoint: /cert-issuer/start-cert-issuer.sh
+    ports:
+      - "80:80"
