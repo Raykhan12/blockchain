@@ -51,4 +51,4 @@ Nota: Basta con hacer build de la imagen que se modifico
 
 ### Deploy
 
-`docker stack deploy --compose-file docker-compose.yml --prune backend
+`docker stack deploy --compose-file docker-compose.yml --prune backend`
